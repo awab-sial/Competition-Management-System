@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #ffffff; */
+    background: linear-gradient(90deg, #C7C5F4, #776BCC);
+}
+
+header {
+    background: linear-gradient(90deg, #C7C5F4, #776BCC);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+
+header .logo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end; /* Aligns navigation to the right */
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-section {
+    background-color: #d9d9d9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.form-container {
+    flex: 2;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.already-registered {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.already-registered a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.submit-button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.guidelines {
+    background: linear-gradient(90deg, #C7C5F4, #776BCC);
+    background-color: #776BCC;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.guidelines h2 {
+    margin-top: 0;
+}
+
+.guidelines ul {
+    padding-left: 20px;
+}

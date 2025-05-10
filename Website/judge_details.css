@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #C7C5F4, #776BCC);	
+}
+
+header {
+    background: linear-gradient(90deg, #C7C5F4, #776BCC);	
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1em;
+}
+
+.navbar nav button {
+    background-color: #2c2424;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.navbar nav button:hover {
+    background-color: #cc0000;
+}
+
+main {
+    width: 90%;
+    margin: 20px auto;
+}
+
+h1, h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.competition-info, .results-entry {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.competition-info div, .results-entry div {
+    margin-bottom: 10px;
+}
+
+.competition-info label, .results-entry label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.competition-info span, .results-entry input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+#participants-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#participants-list li {
+    margin-bottom: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.generate-result-btn, .save-results-btn {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
